@@ -1,0 +1,16 @@
+pkgbase = libspk
+	pkgdesc = The customized library of Spackit
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://github.com/tu-usuario/libSPK
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	source = libspk_aliases.sh
+	source = libspk.c
+	source = https://raw.githubusercontent.com/tu-usuario/tu-repo/main/libspk.c
+	sha256sums = 2308c7fd4de330a6057d95f5f18b8e39c1534d9ce3be0b0af95794fee2f2c321
+	sha256sums = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+	sha256sums = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+pkgname = libspk
