@@ -1,4 +1,4 @@
-pkgbase = spk
+pkgbase = spk2
 	pkgdesc = Custom commands (functions) for Arch Linux
 	pkgver = 0.0.2
 	pkgrel = 2
@@ -9,4 +9,4 @@ pkgbase = spk
 	source = SPK_aliases.sh
 	sha256sums = 70ec268b625654ba3b2efa9068cdca0f11e4748468a6d9282fadfe26aba1f882
 
-pkgname = spk
+pkgname = spk2
