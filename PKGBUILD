@@ -1,4 +1,4 @@
-pkgname=spk
+pkgname=spk2
 pkgver=0.0.2
 pkgrel=2
 pkgdesc="Custom commands (functions) for Arch Linux"
