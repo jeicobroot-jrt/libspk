@@ -1,0 +1,10 @@
+post_install() {
+	echo "==> refreshing the source code"
+	echo "==!> you need to execute the command:spk_initialize to move the package base to /etc/"
+}
+
+pre_install() {
+	source SPK_aliases.sh
+else
+	echo "==!> critical:the source code is not on the correct directory,cannot refresh.Send a email to fake8j@gmail.com"
+}
