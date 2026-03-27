@@ -1,9 +1,9 @@
-pkgname=spk2
+pkgname=libspk
 pkgver=0.0.2
 pkgrel=2
 pkgdesc="Custom commands (functions) for Arch Linux"
 arch=('x86_64')
-url="https://github.com/Jeicobroot-jrt/SPK"
+url="https://github.com/Jeicobroot-jrt/libspk"
 license=('MIT')
 install=SPK.install
 source=("SPK_aliases.sh")
