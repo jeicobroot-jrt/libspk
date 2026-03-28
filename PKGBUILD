@@ -7,7 +7,7 @@ url="https://github.com/Jeicobroot-jrt/libspk.git"
 license=('MIT')
 install=SPK.install
 source=("SPK_aliases.sh")
-sha256sums=('fb30bbd6ad3127899a192fbcc67ccc97469e3341209ad1314bbc4d00d02482de')
+sha256sums=('297cc22d2a2c8698828c2805953d5b068a3643b2a4969438d197e7764fb3815e')
 
 package() {
     install -Dm644 "$srcdir/SPK_aliases.sh" \

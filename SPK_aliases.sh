@@ -27,14 +27,10 @@ spk_initialize() {
 
 spk_update() {
     sudo pacman -S libspk
-else
-     echo "==-> No internet or package not found"
 }
 
 spk_libsearch() {
-    ls /lspbs/libspk-base 2>/dev/null
-else
-     echo "==-> No files found"
+    ls /lspbs/libspk-base 2>/dev/null 
 }
 
 spk_connect() {
