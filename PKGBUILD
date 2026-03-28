@@ -14,3 +14,4 @@ package() {
         "$pkgdir/usr/share/spk/SPK_aliases.sh"
 }
 #
+#
