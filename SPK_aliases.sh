@@ -19,11 +19,9 @@ spk_initialize() {
     echo "==!>¿really do you want to move to a secure directory?"
          read -p "Continue? (y/N): " confirm
     [[ $confirm != "y" ]] && return
-    	mv ~/SPK/ /lspbs/libspk-base
+    sudo mv /usr/share/spk/SPK_aliases.sh /lspbs/libspk-base
 
         echo "==+> Files moved successfully"
-    else
-        echo "==-> ERROR: Files not found in ~/lib-SPK/"
     fi
 }
 
@@ -39,5 +37,13 @@ else
      echo "==-> No files found"
 }
 
-#
-#
+spk_connect() {
+    echo "==::> Searching the S.C.N"
+
+    if [ -d "/S.C.N/connect_network" ]; then
+        ls /S.C.N/connect_network
+        echo "==+> Connected successfully"
+    else
+        echo "==-> Error, you don't have SPKs"
+    fi
+}
