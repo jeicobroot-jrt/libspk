@@ -1,7 +1,3 @@
-spk_stat() {
-    echo ":: spackit lib functioning"
-}
-
 spk_sysrecovery() {
     echo "==!> WARNING: This will update system and reboot."
     read -p "Continue? (y/N): " confirm
@@ -32,16 +28,15 @@ spk_initialize() {
 }
 
 spk_update() {
-    sudo pacman -S libspk || echo "==-> No internet or package not found"
+    sudo pacman -S libspk
+else
+     echo "==-> No internet or package not found"
 }
 
 spk_libsearch() {
-    ls /etc/libspk-base 2>/dev/null || echo "==-> No files found"
-}
-
-spk_suprime() {
-    echo "==> Do you want to hard refresh spackit?"
-    echo "Run: spk_sysrecovery"
+    ls /lspbs/libspk-base 2>/dev/null
+else
+     echo "==-> No files found"
 }
 
 #
