@@ -1,18 +1,15 @@
 pkgname=libspk
-pkgver=0.0.6
+pkgver=0.0.7
 pkgrel=10
 pkgdesc="Custom commands (functions) and connector of SPK packages for Arch Linux"
 arch=('x86_64')
-url="https://github.com/Jeicobroot-jrt/libspk"
+url="https://github.com/Jeicobroot-jrt/libspk.git"
 license=('MIT')
 install=SPK.install
 source=("SPK_aliases.sh")
-sha256sums=('e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855')
+sha256sums=('1f75aee089919bc8b2af091fb7f3704e253c7754b97c0d1e50ffb41d07a6309b')
 
 package() {
     install -Dm644 "$srcdir/SPK_aliases.sh" \
-    "$pkgdir/usr/share/spk/SPK_aliases.sh"
-
-	install -Dm755 "$srcdir/SPK_aliases.sh" \
-	    "$pkgdir/usr/bin/spk"
+        "$pkgdir/usr/share/spk/SPK_aliases.sh"
 }

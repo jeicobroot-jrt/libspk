@@ -1,6 +1,5 @@
 post_install() {
 	echo "==> refreshing the source code"
 	echo "==!> you need to execute the command:spk_initialize to move the package base to /etc/"
-	echo "==!> you need to execute this:source /usr/share/spk/SPK_aliases.sh (if the package upgrade to a new version)"
-	source /usr/share/spk/SPK_aliases.sh
+	echo "==!> you need to execute this:source /usr/share/spk/SPK_aliases.sh"
 }
