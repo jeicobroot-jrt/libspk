@@ -27,8 +27,6 @@ spk_initialize() {
     else
         echo "==!> ERROR: Files not found in ~/lib-SPK/"
     fi
-
-    clear
 }
 
 spk_update() {
