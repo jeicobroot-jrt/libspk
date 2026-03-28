@@ -1,6 +1,6 @@
 pkgname=libspk
-pkgver=0.0.3
-pkgrel=3
+pkgver=0.0.4
+pkgrel=10
 pkgdesc="Custom commands (functions) and connector of SPK packages for Arch Linux"
 arch=('x86_64')
 url="https://github.com/Jeicobroot-jrt/libspk"
