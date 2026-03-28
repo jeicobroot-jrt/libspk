@@ -7,6 +7,6 @@ pkgbase = libspk
 	arch = x86_64
 	license = MIT
 	source = SPK_aliases.sh
-	sha256sums = 696f78f8399a1e5bf67bb53ed9c4cbf128c2989371de34d5577b412f642ee80c
+	sha256sums = a943b604ae0a68ff149935fe4c5a1d27ad1d49bc06fc3d0469d23696249c51c5
 
 pkgname = libspk
