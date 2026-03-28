@@ -1,5 +1,5 @@
 pkgname=libspk
-pkgver=0.0.4
+pkgver=0.0.5
 pkgrel=10
 pkgdesc="Custom commands (functions) and connector of SPK packages for Arch Linux"
 arch=('x86_64')
