@@ -71,9 +71,7 @@ spk_initialize() {
 	    fi
 	}
 
-	EOF
-	
-    fi
+	EOFq
 }
 
 spk_update() {
