@@ -1,12 +1,12 @@
 pkgbase = libspk
 	pkgdesc = Custom commands (functions) and connector of SPK packages for Arch Linux
-	pkgver = 0.1.2
+	pkgver = 0.1.3
 	pkgrel = 10
 	url = https://github.com/Jeicobroot-jrt/libspk.git
 	install = SPK.install
 	arch = x86_64
 	license = MIT
 	source = SPK_aliases.sh
-	sha256sums = a731c497c511f92ea6e27cbac50b844221bfe8523c17a6638dcb99e2415df28b
+	sha256sums = 32db0a4dfee3ecd2a1baffd0ee8283a9bc48698edcf8a0569a40a203311408bb
 
 pkgname = libspk
